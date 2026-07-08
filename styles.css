@@ -361,13 +361,18 @@ img {
 
 .cert-list {
     margin-top: 20px;
+    padding: 16px 20px;
+    background: var(--accent-light);
+    border-radius: 10px;
+    border: 1px solid var(--accent);
+    border-left: 4px solid var(--accent);
 }
 
 .cert-list h4 {
     font-size: 0.95rem;
     font-weight: 600;
     margin-bottom: 10px;
-    color: var(--text-primary);
+    color: var(--accent);
 }
 
 .cert-tags {
@@ -377,12 +382,13 @@ img {
 }
 
 .cert-tag {
-    padding: 5px 12px;
-    background: var(--bg-secondary);
-    color: var(--text-secondary);
-    border-radius: 6px;
+    padding: 5px 14px;
+    background: var(--bg-card);
+    color: var(--accent);
+    border-radius: 20px;
     font-size: 0.85rem;
-    border: 1px solid var(--border);
+    font-weight: 500;
+    border: 1px solid var(--accent);
 }
 
 .about-stats {
